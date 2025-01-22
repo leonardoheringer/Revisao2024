@@ -1,0 +1,80 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+   
+    background-color: #9b5b08;
+    transition: background-color 0.3s ease;
+}
+
+.navbar:hover {
+    background-color: #b36603;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff !important;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #f39c12 !important; /* Cor amarela ao passar o mouse */
+}
+
+.navbar-toggler-icon {
+    background-color: #f39c12; /* Cor do ícone de menu */
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffffff !important;
+    
+}
+
+.hero {
+    margin-top: 60px;
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background-color: #222;
+}
+
+footer p {
+    color: #fff;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}

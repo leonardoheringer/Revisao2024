@@ -5,7 +5,7 @@ class Program
     static void Main()
     {
         // Caminho onde o arquivo de backup será salvo
-        string caminhoArquivo = @"C:\Users\leona\Documentos\Dev\GitHub\Revisao2024\Gerador de Senhas\Gerador de Senhas\backup\bkp.txt";
+        string caminhoArquivo = @"C:\Users\Alunos\Documents\Informatica Tarde\Leonardo Heringer\Revisao2024\Gerador de Senhas\Gerador de Senhas\backup\bkp.txt";
 
         // Criar o objeto BackupSenha com o caminho fornecido
         BackupSenha backup = new BackupSenha(caminhoArquivo);
